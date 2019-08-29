@@ -1,0 +1,128 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 15px;
+}
+
+body {
+    background: url("background.jpg") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.layer {
+    background-color: rgba(14, 14, 214, 0.62);
+    margin: 20px;
+    padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+h1 {
+    font-size:2em;
+    text-align: center;
+    background: #000;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 15px 0px 15px 0px;
+}
+
+.profile > img {
+    width: 100%;
+    border: 3px solid #000;
+    box-shadow: 4px 4px 6px gray;
+    border-radius: 25px 5px 18px 2px;
+}
+
+.textArea {
+    margin-left: 40px;
+    background: rgb(9,36,0);
+    background: linear-gradient(90deg, rgba(9,36,0,1) 0%, rgba(1,0,0,1) 0%, rgba(1,1,7,1) 25%, rgba(9,22,121,1) 73%, rgba(24,86,208,1) 100%); 
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    box-shadow: 4px 4px 6px gray;
+    border-radius: 3px;
+}
+
+header {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+ul {
+    list-style-type:none;
+    margin-bottom:10px;
+    line-height: 25px;
+}
+
+.highlight {
+    font-weight: bold;
+    color: gold;
+}
+
+.bio {
+    margin-bottom: 18px;
+}
+
+.button {
+    font-size: 18px;
+    background: rgb(92,3,96);
+    background: linear-gradient(90deg, rgba(92,3,96,1) 0%, rgba(24,55,208,1) 100%); 
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+}
+
+.button:hover {
+    background: rgb(24,55,208);
+    background: linear-gradient(90deg, rgba(24,55,208,0.8) 0%, rgba(92,3,96,0.7) 100%);
+    border: none;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.623);
+    padding: 20px;
+    margin: none;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+footer > a, a {
+    text-decoration: none;
+    font-size: 16px;
+    color: gold;
+}
+
+@media screen and (max-width: 677px) {
+    .container {
+        display: block;
+        padding: 25px;
+    }
+    .textArea {
+        width: 100%;
+        margin-top: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    audio {
+        width:100%; 
+    }
+  }
